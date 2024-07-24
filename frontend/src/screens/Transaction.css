@@ -1,0 +1,16 @@
+.transaction-container {
+    margin: 20px 0; /* Adds space at the top and bottom */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  .maroon-button {
+    background-color: maroon;
+    color: white;
+    border: none;
+    padding: 10px 20px; /* Adjust padding as needed */
+    cursor: pointer;
+  }

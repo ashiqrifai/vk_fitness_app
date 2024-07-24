@@ -1,0 +1,5 @@
+.clickable-column {
+    cursor: pointer;
+    text-decoration: underline;
+    color: blue;
+  }
