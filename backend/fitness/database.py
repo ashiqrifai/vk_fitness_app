@@ -3,7 +3,7 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from sqlalchemy.engine import URL
 
-connection_string = "DRIVER={SQL Server Native Client 11.0};SERVER=DESKTOP-IO06Q63;DATABASE=vk_fitness;UID=sa;PWD=Admin123"
+connection_string = "DRIVER={SQL Server Native Client 11.0};SERVER=DEVPC;DATABASE=vk_fitness;UID=sa;PWD=Admin123"
 connection_url = URL.create("mssql+pyodbc", query={"odbc_connect": connection_string})
 
 
